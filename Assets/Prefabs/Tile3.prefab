@@ -497,7 +497,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8947971234176222100}
   - component: {fileID: 5463211065746403966}
-  - component: {fileID: 5355443748250403083}
   m_Layer: 0
   m_Name: Tile3
   m_TagString: Untagged
@@ -520,7 +519,6 @@ Transform:
   m_Children:
   - {fileID: 6116369511961309988}
   - {fileID: 4678595898985181311}
-  - {fileID: 3677867837315751105}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5463211065746403966
@@ -537,21 +535,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
---- !u!114 &5355443748250403083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6091354759862484494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
     _objectReferences: []
 --- !u!1 &7085532902701257355
 GameObject:
@@ -658,65 +641,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &4820146153494247233
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 8947971234176222100}
-    m_Modifications:
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.6616025
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.373591
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.8293
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9085961293600047842, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-      propertyPath: m_Name
-      value: Enemy Spawn
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
---- !u!4 &3677867837315751105 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8209763245640608640, guid: 64e1394c28ea72b418fadc9fd9029277, type: 3}
-  m_PrefabInstance: {fileID: 4820146153494247233}
-  m_PrefabAsset: {fileID: 0}
