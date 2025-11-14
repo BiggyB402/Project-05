@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a55ba94beeaa2c44851ebee16ee1ee5, type: 2}
+  - {fileID: 2100000, guid: 5962a05e096e96f4bbf4501fe5218104, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -202,7 +202,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a55ba94beeaa2c44851ebee16ee1ee5, type: 2}
+  - {fileID: 2100000, guid: 5962a05e096e96f4bbf4501fe5218104, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -307,7 +307,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a55ba94beeaa2c44851ebee16ee1ee5, type: 2}
+  - {fileID: 2100000, guid: 5962a05e096e96f4bbf4501fe5218104, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -413,7 +413,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4397ebaecc5d6ed48baf525989b7a0a4, type: 2}
+  - {fileID: 2100000, guid: dc9bec98a1cf77845a6f674834fff3c5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 5463211065746403966}
   m_Layer: 0
   m_Name: Tile7
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
