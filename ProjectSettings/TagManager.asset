@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Spawn Point
+  - Tile
+  - Ending
   layers:
   - Default
   - TransparentFX
